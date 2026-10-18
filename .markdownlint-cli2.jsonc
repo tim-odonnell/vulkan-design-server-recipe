@@ -1,0 +1,10 @@
+// Markdown lint settings (run: npx markdownlint-cli2)
+{
+  "config": {
+    // Prose is wrapped at about 96 columns; tables and commands cannot wrap.
+    "MD013": false,
+    // Tables use the compact |---| separator row.
+    "MD060": false
+  },
+  "globs": ["**/*.md"]
+}
